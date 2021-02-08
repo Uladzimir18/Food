@@ -90,7 +90,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
     const modalTrigger = document.querySelectorAll(' [data-modal] '),
           modal = document.querySelector('.modal'),
-          modalCloseBtn = document.querySelector('.modal__close');
+          modalCloseBtn = document.querySelectorAll('.modal__close');
     
     modalTrigger.addEventListener('click', () => {
         modal.classList.add('show', 'fade');
